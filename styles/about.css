@@ -1,0 +1,109 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(JockeyOne-Regular.otf);
+}
+
+html 
+{
+  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+
+header 
+{
+  background: #7298A0;
+  width: 100%;
+  height: 225px;
+  margin-bottom: 20px;
+  border-bottom: solid black 2px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+#number
+{
+  text-align: center;
+  font-size: 40px;
+  color: #66c2ff;
+  text-shadow: 3px 2px black;
+}
+
+nav
+{
+  text-align: center;
+}
+
+ul.nav li
+{   
+  display: inline; 
+  padding: 10px; 
+  font-size: 40px;
+}
+
+a:link 
+{ 
+  color: #C9E4CA;
+} 
+
+a:visited 
+{ 
+  color: #E0D8DE; 
+} 
+
+a:hover 
+{ 
+/*  color: #00B1C9; Nice blue color*/ 
+  text-decoration: none;
+}
+
+img
+{
+  display: block;
+  margin: 0 auto;
+}
+
+/*START BODY HERE*/
+
+body
+{
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#75a0af+1,364958+99 */
+background: rgb(117,160,175); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(117,160,175,1) 1%, rgba(54,73,88,1) 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(117,160,175,1) 1%,rgba(54,73,88,1) 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(117,160,175,1) 1%,rgba(54,73,88,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75a0af', endColorstr='#364958',GradientType=0 ); /* IE6-9 */
+
+ /* background-color: #364958;*/
+}
+
+#mainbody
+{
+  background-color: white;
+  width: 700px;
+  margin: 0 auto;
+  height: 700px;
+}
+
+
+/*START FOOTER HERE*/
+
+footer
+{
+  background-color: #295168;
+  border-top: solid black 3px;
+  width: 100%;
+  height: 120px;
+  margin-top: 20px;
+  text-align: center;
+}
+#buttons a
+{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+#credit{
+  font-size: 20px;
+  color: white;
+  font-family: 'Condiment', cursive;
+}
