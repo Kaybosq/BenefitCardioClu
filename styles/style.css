@@ -10,11 +10,11 @@ html
 
 header 
 {
-  background: #7298A0;
+  background: #333333;
   width: 100%;
   height: 225px;
   margin-bottom: 20px;
-  border-bottom: solid black 2px;
+  border-bottom: solid gray 2px;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
 }
@@ -73,25 +73,18 @@ img
 
 body
 {
- /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#75a0af+1,364958+99 */
-background: rgb(117,160,175); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(117,160,175,1) 1%, rgba(54,73,88,1) 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(117,160,175,1) 1%,rgba(54,73,88,1) 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(117,160,175,1) 1%,rgba(54,73,88,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75a0af', endColorstr='#364958',GradientType=0 ); /* IE6-9 */
-
- /* background-color: #364958;*/
+  background-color: black;
 }
 
 #myTypingText {
   text-align: center;
   margin: 10px auto;
-  width:100%;
-  height:60px;
-  color:#B84A62;
+  width: 100%;
+  height: 60px;
+  color: #B84A62;
   font-family:Arial, Helvetica, sans-serif;
-        font-size:40px;
-  line-height:1.5em;
+        font-size: 40px;
+  line-height: 1.5em;
 }
 
 
@@ -128,7 +121,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75a0af', end
 
 .wrapper
 {
-  background: #3B6064 ;
+  background: #333333;
   width: 953px;
   height: 365px;
   margin: 10px auto;
@@ -186,13 +179,14 @@ div#insta
 
 footer
 {
-  background-color: #295168;
-  border-top: solid black 3px;
+  background-color: #333333;
+  border-top: solid gray 3px;
   width: 100%;
   height: 120px;
   margin-top: 20px;
   text-align: center;
 }
+
 #buttons a
 {
   margin-top: 10px;
