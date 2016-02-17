@@ -51,8 +51,7 @@ a:visited
 } 
 
 a:hover 
-{ 
-/*  color: #00B1C9; Nice blue color*/ 
+{
   text-decoration: none;
 }
 
@@ -63,9 +62,54 @@ img
 }
 
 /*START BODY HERE*/
+.clear
+{
+  clear: both;
+}
+
 body
 {
  background-color: black;
+}
+
+#title
+{
+  padding-bottom: 10px;
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 40px;
+  color: #A7C770;
+  font-family: myFirstFont;
+}
+
+#bodywrapper
+{
+  margin: 0 auto;
+  background: #333333;
+  border-radius: 15px;
+  border: solid gray 2px;
+  width: 1000px;
+}
+
+h1.program
+{
+  color: #A7C770;
+  font-family: myFirstFont;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.aboutme
+{
+  color: #E0D8DE;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  margin: 0 0 10px 15px;
+}
+
+img#floor
+{
+  margin-bottom:10px; 
 }
 
 /*START FOOTER HERE*/

@@ -1,0 +1,151 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(JockeyOne-Regular.otf);
+}
+
+html 
+{
+  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+
+header 
+{
+  background: #333333;
+  width: 100%;
+  height: 225px;
+  margin-bottom: 20px;
+  border-bottom: solid gray 2px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+#number
+{
+  text-align: center;
+  font-size: 40px;
+  color: #66c2ff;
+  text-shadow: 3px 2px black;
+}
+
+nav
+{
+  text-align: center;
+}
+
+ul.nav li
+{   
+  display: inline; 
+  padding: 10px; 
+  font-size: 40px;
+}
+
+
+a:link 
+{ 
+  color: #C9E4CA;
+} 
+
+a:visited 
+{ 
+  color: #E0D8DE; 
+} 
+
+a:hover 
+{ 
+  text-decoration: none;
+}
+
+#logo
+{
+  display: block;
+  margin: 0 auto;
+}
+
+/*START BODY HERE*/
+
+.clear
+{
+  clear: both;
+}
+
+body
+{
+ background-color: black;
+}
+
+div#title
+{
+  padding: 10px;
+  width: 324px;
+  margin: 10px auto;
+  background: #333333;
+  border-radius: 15px;
+  border: solid gray 2px;
+  color: #A7C770;
+  font-family: myFirstFont;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+#bodywrapper
+{
+  margin: 0 auto;
+  background: #333333;
+  border-radius: 15px;
+  border: solid gray 2px;
+  width: 1000px;
+}
+
+h1.education
+{
+  color: #A7C770;
+  font-family: myFirstFont;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.aboutme
+{
+  color: #E0D8DE;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  margin: 0 0 10px 15px;
+}
+
+#textwrapper
+{
+  padding: 10px;
+}
+
+#southmiami
+{
+  margin: 0 0 10px 15px;
+}
+
+
+/*START FOOTER HERE*/
+
+footer
+{
+  background-color: #333333;
+  border-top: solid gray 3px;
+  width: 100%;
+  height: 120px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#buttons a
+{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+#credit{
+  font-size: 20px;
+  color: white;
+  font-family: 'Condiment', cursive;
+}
+
